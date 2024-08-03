@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main>
+    <p>Создайте HTML-страницу с кнопкой "Кликни меня" и блоком, в котором будет отображаться количество кликов.
+
+      Используя JavaScript, при клике на кнопку увеличивайте счетчик кликов и изменяйте цвет фона блока. Если
+      количество кликов делится на 5 без остатка, цвет фона должен изменяться на случайный цвет.
+
+      При достижении 10 кликов выведите сообщение под блоком с количеством кликов: "Поздравляем! Вы достигли 10
+      кликов!".</p>
+    <div class="block">
+      <h2 class="block__text">0</h2>
+    </div>
+    <button class="btn" id="btnclickme" onclick="handlerBtnOnClick()">Кликни меня</button>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

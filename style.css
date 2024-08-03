@@ -1,0 +1,30 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.block {
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: white;
+}
+
+.invert {
+  background-color: black;
+  color: white;
+}
